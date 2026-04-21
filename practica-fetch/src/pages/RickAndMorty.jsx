@@ -24,7 +24,7 @@ const RickAndMorty = () => {
 
     return (
         <div>
-            <h1 className='text-center text-2xl'>Personajes Rick and Morty</h1>
+            <h1 className='text-center text-2xl'>Personajes</h1>
             {loading ? (
                 <p className='text-center'>Cargando...</p>
             ) : (
